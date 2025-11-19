@@ -1,0 +1,125 @@
+/* Light Mode */
+body {
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 450px;
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#darkModeToggle {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Input Section */
+.input-section {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+#taskInput,
+#category,
+#deadline {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#addBtn {
+  padding: 10px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background: #eeeeee;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+}
+
+/* Buttons */
+.complete {
+  background: green;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.edit {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+/* Deadline warning */
+.deadline-near {
+  border-left: 5px solid red;
+}
+
+/* Dark Mode Styles */
+body.dark {
+  background: #1c1c1c;
+}
+
+body.dark .container {
+  background: #2c2c2c;
+  color: white;
+}
+
+body.dark input,
+body.dark select {
+  background: #3a3a3a;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark li {
+  background: #444;
+}
