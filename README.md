@@ -5,6 +5,12 @@ This project allows users to **add, edit, delete, organize, and save tasks** usi
 
 ---
 
+# 🌐 Live Demo
+
+👉 **https://pavithrab-wec.github.io/todo-app/**
+
+---
+
 ## 🚀 Features
 
 ### ✔ Add New Tasks  
@@ -17,7 +23,7 @@ Modify an existing task anytime.
 Remove any task quickly using the delete button.
 
 ### ✔ Mark as Completed  
-Click the ✔ icon to mark tasks as done (line-through effect).
+Click the ✔ icon to mark tasks as done.
 
 ### ✔ Task Categories  
 Choose categories such as:
@@ -77,7 +83,7 @@ todo-app/
 ---
 
 ### **Option 2 — VS Code + Live Server**
-1. Install **Live Server** extension  
+1. Install Live Server extension  
 2. Right-click `index.html`  
 3. Select **Open with Live Server**  
 4. App runs at:
@@ -90,7 +96,7 @@ http://localhost:5500/
 ## 🔮 Future Enhancements
 - Dark Mode  
 - Drag & Drop Task Reordering  
-- Notification Alerts  
+- Notifications  
 - Search & Filter  
 - Firebase / Database Storage  
 - Priority Levels  
@@ -104,4 +110,5 @@ GitHub: [pavithraB-wec](https://github.com/pavithraB-wec)
 ---
 
 ## ⭐ Support
-If you like this project, please **star ⭐ the repository** — it
+If you like this project, please **star ⭐ the repository** — it helps a lot!
+
